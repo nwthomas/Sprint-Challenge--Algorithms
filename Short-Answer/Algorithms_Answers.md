@@ -4,7 +4,7 @@
 
 a)
 
-b)
+b) Normally this code would be a nested loop that has a time complexity of `O(n^2)` - However, since the nested/inner loop doubles every time we run it until it hits its maximum of _n_, the running time complexity is actually `O(n log(n))`. This is because the outer loop is time `O(n)` which is multiplied by its inner loop of `O(log(n))`.
 
 c) The _if/then_ block within this code is irrelevant as it's constant time. The meat of this function is the recursive call; once again, the number 2 is irrelevant in the face of the recursive call. This function is a running time complexity of `O(n)` due to iterating a recursive call once for every number from n to 0.
 
