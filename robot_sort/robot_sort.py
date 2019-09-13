@@ -15,7 +15,7 @@ Beceause of this, I will use the following steps (without modifying the existing
 8. The light will be turned on if a selection is made
 9. If the light is not on at the end of a loop, break will occur and the fully sorted list will be returned
 
-This should get us where we need to go in terms of sorting our list with our robot
+This should get us where we need to go in terms of sorting our list with our robot. The one bit of memory the robot has (the light) will be used to check if any changes have occured in a given loop. If none have, the recursive loop will be exited and the list will be fully sorted.
 """
 
 
