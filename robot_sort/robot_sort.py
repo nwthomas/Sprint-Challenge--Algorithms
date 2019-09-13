@@ -3,7 +3,7 @@ Comments/Pseudo-Code for Robot Sort Problem:
 
 This problem seems most likely to use selection sort for its algorithm given the constraints of the robot.
 
-Beceause of this, I will use the following steps (without modifying the existing methods or violating the constraints of the problem):
+Because of this, I will use the following steps (without modifying the existing methods or violating the constraints of the problem):
 
 1. The robot will use Selection Sort to cycle through all the items in the list
 2. The robot will start by picking up the first list item (placing None in the list in its place) and moving right
