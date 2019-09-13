@@ -1,3 +1,24 @@
+"""
+Comments/Pseudo-Code for Robot Sort Problem:
+
+This problem seems most likely to use selection sort for its algorithm given the constraints of the robot.
+
+Beceause of this, I will use the following steps (without modifying the existing methods or violating the constraints of the problem):
+
+1. The robot will use Selection Sort to cycle through all the items in the list
+2. The robot will start by picking up the first list item (placing None in the list in its place) and moving right
+3. The robot will check every single placement of the list by moving right until the robot cannot anymore
+4. Once the robot hits the end of the list, it will move back to the starting placement (checking for None each step)
+5. When it gets back, it will swap None with the new lowest selection from the list
+6. It will move right once, and then the loop will repeat
+7. This cycle will happen continuously until the entire list is sorted
+8. The light will be turned on if a selection is made
+9. If the light is not on at the end of a loop, break will occur and the fully sorted list will be returned
+
+This should get us where we need to go in terms of sorting our list with our robot
+"""
+
+
 class SortingRobot:
     def __init__(self, l):
         """
