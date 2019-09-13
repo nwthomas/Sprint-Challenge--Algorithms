@@ -21,6 +21,3 @@ def count_th(word):
         return count(str, point)
 
     return count(word)
-
-
-print(count_th("This is the best"))
