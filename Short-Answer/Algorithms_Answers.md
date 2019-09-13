@@ -2,7 +2,7 @@
 
 ## Exercise I
 
-a)
+a) This loop was really hard for me to figure out; while the _while_ loop is multiplying _n_ 3 times and the inner loop is multiplying it 2 times, the loop is still entirely based on the size of _n_. Therefore, this loop is running at a runtime complexity of `O(n)`.
 
 b) Normally this code would be a nested loop that has a time complexity of `O(n^2)` - However, since the nested/inner loop doubles every time we run it until it hits its maximum of _n_, the running time complexity is actually `O(n log(n))`. This is because the outer loop is time `O(n)` which is multiplied by its inner loop of `O(log(n))`.
 
